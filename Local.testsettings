@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="Local" id="c374b311-c41d-48d7-94be-c62b07a0b79d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="AsynchronousBufferingForwardingAppender\AsynchronousBFAppender.TestProject\log4net.xsd" />
+    <DeploymentItem filename="AsynchronousBFAppender.TestProject\log4netconfig_tc_flooding_min.xml" />
+    <DeploymentItem filename="AsynchronousBufferingForwardingAppender\AsynchronousBFAppender.TestProject\log4netconfig_tc_async.xml" />
+    <DeploymentItem filename="AsynchronousBufferingForwardingAppender\bin\Debug\saly.l4n.AsynchronousBufferingForwardingAppender.dll" />
+    <DeploymentItem filename="AsynchronousBufferingForwardingAppender\AsynchronousBFAppender.TestProject\log4netconfig_tc_flooding.xml" />
+  </Deployment>
+  <Execution>
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="LocalMachineDefaultRole">
+    </AgentRule>
+  </Execution>
+</TestSettings>
