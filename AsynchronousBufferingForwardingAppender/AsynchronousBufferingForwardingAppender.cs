@@ -25,7 +25,7 @@ using log4net.Core;
 using log4net.Util;
 
 namespace saly.l4n
-{
+{ 
     /*
       
     Generic log4net asynchronous forwarding appender (optionally with floddingprevention/throttling)
